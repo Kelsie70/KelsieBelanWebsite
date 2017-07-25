@@ -1,13 +1,39 @@
 h1 {
-    font-family: monospace;
+    font-family: Stea;
+}
+
+.stea-name {
+    font-size: 150px;
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: Stea;
     border-bottom: 2px solid gray;
     padding-bottom: 20px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+}
+
+h3 {
+    font-family: WaffleSoft;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: WaffleSoft;
+}
+
+@font-face {
+    font-family: Stea;
+    src: url('Stea Font.otf');
+}
+
+@font-face {
+    font-family: WaffleSoft;
+    src: url('WaffleSoft.otf');
+}
+
+.navbar-brand {
+    font-family: Stea;
+    font-size: 20px;
 }
 
 .jumbotron {
@@ -37,6 +63,14 @@ h2 {
     color: darkcyan
 }
 
+.contact-icon {
+    margin-right: 15px;
+}
+
+.about-icon {
+    margin-left: 20px;
+}
+
 .navbar {
     margin-bottom: 0;
     background-color: beige;
@@ -63,10 +97,14 @@ h2 {
     color: cadetblue !important;
 }
 
+.navbar-right {
+    font-family: WaffleSoft;
+}
+
 .carousel-content {
     color: cadetblue;
     font-family: cursive;
-    font-size: 50px;
+    font-size: 30px;
     display:inline;
     align-items:center;
 }
@@ -78,6 +116,6 @@ h2 {
 #text-carousel {
     width: 100%;
     height: 300px;
-    padding: 10px;
-    margin-top:50px;
+    padding: 100px;
+    margin-top: 30px;
 }
