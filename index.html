@@ -38,7 +38,7 @@
 
 <div class="jumbotron slideanim">
     <h3>Hello. My name is</h3>
-    <h1><span class="stea-name" id="name">Kelsie Belan</span></h1>
+    <h1><span class="stea-name">Kelsie Belan</span></h1>
     <h3>I am a full time student</h3> 
     <h3>with a passion for software engineering</h3>
     <h3>and human-computer interaction.</h3>
@@ -184,12 +184,21 @@ $(document).ready(function(){
       });
     } // End if
   });
-})
-    
-    $("name").hover(function(){
-    $(this).css("opacity", "0.5");
-    }, function(){
-    $(this).css("opacity", "1.0");
 });
- 
+    
+ $("span.stea-name").hover(function(){
+                $(this).css({"color":"gold"});
+               }, 
+				
+               function () {
+                  $(this).css({"color":"white"});
+               });
+    
+    $("span.contact-icon").hover(function(){
+                $(this).css({"color":"gold"});
+               }, 
+				
+               function () {
+                  $(this).css({"color":"#c6efec"});
+               });
 </script>
