@@ -8,7 +8,7 @@ h1 {
 
 h2 {
     font-family: Stea;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #c6efec;
     padding-bottom: 20px;
 }
 
@@ -37,14 +37,14 @@ h4 {
 }
 
 .jumbotron {
-    background-color: cadetblue;
-    color: beige;
+    background-color: black;
+    color: white;
     padding: 100px;
 }
 
 .container-fluid {
-    background-color: beige;
-    color: cadetblue;
+    background-color: white;
+    color: black;
     margin-top: -30px;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -55,17 +55,17 @@ h4 {
 }
 
 .glyphicon {
-    color: aquamarine;
+    color: #c6efec;
 }
 
 .glyphicon-plus-sign {
     font-size: 150px;
-    color: darkcyan;
+    color: #c6efec;
 }
 
 .contact-icon {
     margin-right: 15px;
-    color: aquamarine;
+    color: #c6efec;
 }
 
 .about-icon {
@@ -74,28 +74,28 @@ h4 {
 
 .navbar {
     margin-bottom: 0;
-    background-color: beige;
+    background-color: ;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
-    color: cadetblue
+    color: white
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: cadetblue !important;
+    color: black !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: beige !important;
-    background-color: cadetblue !important;
+    color: white !important;
+    background-color: black !important;
 }
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: cadetblue !important;
+    color: black !important;
 }
 
 .navbar-right {
@@ -103,7 +103,7 @@ h4 {
 }
 
 .carousel-content {
-    color: cadetblue;
+    color: black;
     font-family: cursive;
     font-size: 30px;
     display:inline;
