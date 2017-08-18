@@ -16,6 +16,19 @@ h1 {
     line-height: 1.8;
 }
 
+.about-titlel {
+    font-family: Stea;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.paddingl {
+    padding-left:30px;
+    padding-right:30px;
+    text-align:left;
+}
+
 h2 {
     font-family: Stea;
     border-bottom: 2px solid #c6efec;
@@ -29,6 +42,7 @@ h3 {
 
 h4 {
     font-family: WaffleSoft;
+    line-height: 1.4;
 }
 
 h5 {
