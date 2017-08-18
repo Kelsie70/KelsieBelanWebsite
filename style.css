@@ -11,6 +11,11 @@ h1 {
     text-decoration: underline;
 }
 
+.about {
+    text-align: left;
+    line-height: 1.8;
+}
+
 h2 {
     font-family: Stea;
     border-bottom: 2px solid #c6efec;
