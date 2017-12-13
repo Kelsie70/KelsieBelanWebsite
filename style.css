@@ -54,7 +54,7 @@ h3 {
 }
 
 h4 {
-    font-family: WaffleSoft;
+    font-family: LANENAR_;
     line-height: 1.4;
 }
 
@@ -70,6 +70,11 @@ h5 {
 @font-face {
     font-family: WaffleSoft;
     src: url('WaffleSoft.otf');
+}
+
+@font-face {
+    font-family: LANENAR_;
+    src: url('LANENAR_.ttf')
 }
 
 .navbar-brand {
@@ -173,4 +178,17 @@ h5 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+details summary::-webkit-details-marker {
+  color: #c6efec;
+  font-size: 100%;
+}
+
+summary {
+  display: block;
+    font-family: WaffleSoft;
+    font-size: 30px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
