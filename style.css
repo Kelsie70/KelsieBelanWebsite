@@ -2,12 +2,30 @@ h1 {
     font-family: Stea;
 }
 
+p {
+    font-family: LANENAR_;
+}
+
 .stea-name {
     font-size: 150px;
 }
 
+.nametitle {
+    font-family: WaffleSoft;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.desctitle {
+    font-family: LANENAR_;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 70px;
+}
+
 .link-ani {
-    color: black;
+    color: #3f4142;
     text-decoration: underline;
 }
 
@@ -77,20 +95,27 @@ h5 {
     src: url('LANENAR_.ttf')
 }
 
+@font-face {
+    font-family: Anisha;
+    src: url('Anisha Free.otf');
+}
+
 .navbar-brand {
-    font-family: Stea;
+    font-family: LANENAR_;
     font-size: 20px;
+    letter-spacing: 3px;
 }
 
 .jumbotron {
-    background-color: black;
+    background-color: #3f4142;
+    background-image: url("graybackground1.jpg");
     color: white;
     padding: 100px;
 }
 
 .container-fluid {
     background-color: white;
-    color: black;
+    color: #3f4142;
     margin-top: -30px;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -131,17 +156,17 @@ h5 {
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: black !important;
+    color: #3f4142 !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: gold !important;
-    background-color: black !important;
+    background-color: #3f4142 !important;
 }
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: black !important;
+    color: #3f4142 !important;
 }
 
 .navbar-right {
@@ -149,7 +174,7 @@ h5 {
 }
 
 .carousel-content {
-    color: black;
+    color: #3f4142;
     font-family: cursive;
     font-size: 30px;
     display:inline;
