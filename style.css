@@ -1,3 +1,4 @@
+
 h1 {
     font-family: Stea;
 }
@@ -13,15 +14,17 @@ p {
 .nametitle {
     font-family: WaffleSoft;
     font-size: 90px;
-    text-align: center;
+    text-align: ;
     letter-spacing: 10px;
+    color: white;
 }
 
 .desctitle {
     font-family: LANENAR_;
     font-size: 30px;
     text-align: right;
-    padding-right: 70px;
+    padding-right: 0px;
+    color: white;
 }
 
 .link-ani {
@@ -64,6 +67,7 @@ h2 {
     font-family: Stea;
     border-bottom: 2px solid #c6efec;
     padding-bottom: 20px;
+    font-size: 60px;
 }
 
 h3 {
@@ -74,10 +78,15 @@ h3 {
 h4 {
     font-family: LANENAR_;
     line-height: 1.4;
+    font-size: 20px;
 }
 
 h5 {
     font-family: WaffleSoft;
+}
+
+.tab {
+    padding-left: 30px;
 }
 
 @font-face {
@@ -108,9 +117,20 @@ h5 {
 
 .jumbotron {
     background-color: #3f4142;
-    background-image: url("graybackground1.jpg");
+    background-image: url("dark_bg.jpg");
+    opacity: 1.0;
+    padding: 20%;
+    background-size: cover;
     color: white;
-    padding: 100px;
+}
+
+.jumbotron_sub {
+    background-color: #3f4142;
+    background-image: url("dark_bg.jpg");
+    opacity: 1.0;
+    padding: 10%;
+    background-size: cover;
+    color: white;
 }
 
 .container-fluid {
